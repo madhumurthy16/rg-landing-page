@@ -32,7 +32,16 @@ function App() {
           <Route path="/work" component={Work} />
           <Route path="/contact" component={Contact} />
       </main>
+      <footer id="footer">
+          <div className="container d-flex align-items-center justify-content-center">
+            <small>©2019 Rooster Grin Media</small>
+            <p>Follow Us</p>
+            <img className="social-icon" src='/assets/images/instagram.svg' alt="icon indicating instagram logo"/>
+            <img className="social-icon" src='/assets/images/facebook.svg' alt="icon indicating facebook logo"/>
+          </div>
+      </footer>
     </div>
+
   );
 }
 
