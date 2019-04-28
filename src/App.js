@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import Landing from './components/Landing';
 import About from './components/About';
-import Work from './components/Work';
+import OurServices from './components/OurServices';
 import Contact from './components/Contact';
 
 import './App.css';
@@ -19,8 +19,8 @@ function App() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav ml-auto">
                   <Link className="nav-item nav-link active" to='/about' onClick={(e) => this.handleClick(e)}>About</Link>
-                  <Link className="nav-item nav-link" to='/work' onClick={(e) => this.handleClick(e)}>Work</Link>
-                  <Link className="nav-item nav-link" to='/work' onClick={(e) => this.handleClick(e)}>Contact</Link>
+                  <Link className="nav-item nav-link" to='/our-services' onClick={(e) => this.handleClick(e)}>Our Services</Link>
+                  <Link className="nav-item nav-link" to='/contact' onClick={(e) => this.handleClick(e)}>Contact</Link>
 
               </div>
             </div>
@@ -29,7 +29,7 @@ function App() {
       <main>
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
-          <Route path="/work" component={Work} />
+          <Route path="/our-services" component={OurServices} />
           <Route path="/contact" component={Contact} />
       </main>
       <footer id="footer">

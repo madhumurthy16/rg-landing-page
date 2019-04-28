@@ -9,7 +9,7 @@ const Hero = () => (
 			<div className="card-img-overlay m-5 d-flex align-items-center justify-content-center">
 				<h1 className="hero-title card-title font-weight-bold">Welcome To</h1>
 				<p>Rooster Grin</p>
-				<button type="submit" className="btn-submit" id="btn-learn-more">Learn More</button>
+				<button type="submit" className="btn-submit" id="btn-learn-more"><a href="https://www.roostergrin.com/" target="_blank">Learn More</a></button>
 			</div>
 		</div>
 	</section>
