@@ -3,13 +3,13 @@ import './Hero.css';
 
 
 const Hero = () => (
-	<section className="hero">
-		<div className="hero card bg-dark text-white mb-5 border-0 rounded-0">
-			<img className="card-img rounded-0 img-fluid" src='/assets/images/hero.jpg' alt="Golden Gate Bridge at Sunset"/>
-			<div className="card-img-overlay m-5 d-flex align-items-center justify-content-center">
-				<h1 className="hero-title card-title font-weight-bold">Welcome To</h1>
-				<p>Rooster Grin</p>
-				<button type="submit" className="btn-submit" id="btn-learn-more"><a href="https://www.roostergrin.com/" target="_blank">Learn More</a></button>
+	<section>
+		<div className="hero card bg-dark text-white">
+			<img className="hero-img card-img rounded-0 img-fluid" src='/assets/images/hero.jpg' alt="Golden Gate Bridge at Sunset"/>
+			<div className="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+				<h1 className="card-title">Welcome To</h1>
+				<h2 className="card-text">Rooster Grin</h2>
+				<button type="button" className="btn btn-lg rounded-0 btn-learn-more"><a href="https://www.roostergrin.com/" target="_blank" rel="noopener noreferrer">Learn More</a></button>
 			</div>
 		</div>
 	</section>

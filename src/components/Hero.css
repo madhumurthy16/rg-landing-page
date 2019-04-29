@@ -1,0 +1,22 @@
+.hero-img {
+	width: 100%;
+	height: 100vh;
+}
+
+.card-title {
+	text-transform: uppercase;
+}
+
+.btn-learn-more {
+	background-color: #AC5FD0;
+}
+
+.btn-learn-more a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.btn-lg {
+	font-size: 0.938em;
+}
+
