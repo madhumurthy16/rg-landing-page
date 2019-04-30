@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './BannerLeftCTA.css';
 
 const BannerLeftCTA = () => (
@@ -8,7 +9,7 @@ const BannerLeftCTA = () => (
 			<div className="card-img-overlay col-left d-flex">
 				<div className="my-auto">
 					<h2 className="card-title heading-purple">Lorem Ipsum</h2>
-					<button type="button" className="btn btn-lg rounded-0 btn-contact-us">Contact Us</button>
+					<button type="button" className="btn btn-lg rounded-0 btn-contact-us"><Link className="btn-contact-us" to="/contact">Contact Us</Link></button>
 				</div>
 			</div>
 		</div>

@@ -12,6 +12,7 @@ class TestimonialSlider extends Component {
   	render() {
       const settings = {
         dots: true,
+        arrows: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -19,21 +20,26 @@ class TestimonialSlider extends Component {
       };
 
     return (
-      <div>
-        <Slider {...settings}>
-          {
-          	this.state.testimonials.map( (testimonial, index) => 
-          		<div key={index} >
-          			<h3>{testimonial.title}</h3>
-          			<p>{testimonial.text}</p>
-          			<img className="testimonial-photo" src={testimonial.photo} alt={testimonial.name} />
-          			<p>{testimonial.name}</p>
-          			<p>{testimonial.date}</p>
-          		</div>
-          	)
-          }
-        </Slider>
-      </div>
+      <section className="testimonial my-5">
+        <div class="container">
+          <div className="row align-items-center justify-content-center">
+          <div className="col-md-12 text-center">
+              <Slider {...settings}>
+                {
+                	this.state.testimonials.map( (testimonial, index) => 
+                		<div key={index} >
+                			<h3>{testimonial.title}</h3>
+                			<p className="testimonial-text">{testimonial.text}</p>
+                			<img className="testimonial-photo d-inline-block" src={testimonial.photo} alt={testimonial.name} />
+                			<p className="testimonial-name-date mt-2">{testimonial.name} {testimonial.date}</p>
+                		</div>
+                	)
+                }
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
  }

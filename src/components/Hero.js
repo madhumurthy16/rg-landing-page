@@ -3,14 +3,17 @@ import './Hero.css';
 
 
 const Hero = () => (
-	<section className="hero">
-		<div className="card text-white rounded-0 border-0">
-			<img className="hero-img card-img rounded-0 img-fluid" src='/assets/images/hero.jpg' alt="Golden Gate Bridge at Sunset"/>
-			<div className="card-img-overlay d-flex">
-				<div class="my-auto mx-auto text-center">
-					<h1 className="card-title">Welcome To</h1>
-					<h2 className="card-text">Rooster Grin</h2>
-					<button type="button" className="btn btn-lg rounded-0 btn-learn-more"><a href="https://www.roostergrin.com/" target="_blank" rel="noopener noreferrer">Learn More</a></button>
+	<section className="hero-image">
+		<div class="hero-content">
+  			<div class="container">
+  				<div class="row align-items-center justify-content-center d-flex">
+	  				<div class="col-md-8 col-lg-7">
+						<h1 className="card-title text-center mb-4">Welcome To</h1>
+						<h2 className="card-text text-center mb-5">Rooster Grin</h2>
+						<p className="text-center">
+							<button type="button" className="btn btn-lg rounded-0 btn-learn-more text-center"><a href="https://www.roostergrin.com/" target="_blank" rel="noopener noreferrer">Learn More</a></button>
+						</p>
+					</div>	
 				</div>
 			</div>
 		</div>

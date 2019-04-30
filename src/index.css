@@ -19,6 +19,7 @@ h2 {
 
 h3 {
 	font-size: 2.5em;
+	text-transform: uppercase;
 }
 
 a {
@@ -37,16 +38,11 @@ a:hover {
 	color: #3E3E3E;
 }
 
-
 /* Buttons */
 
-.btn-learn-more, .btn-contact-us {
+.btn-learn-more a, .btn-contact-us {
 	color: #ffffff;
 	text-transform: uppercase;
-}
-
-.btn-lg {
-	font-size: 0.938em;
 }
 
 .btn-contact-us {
@@ -62,6 +58,14 @@ a:hover {
 
 .col-right {
 	padding-right: 4rem;
+}
+
+/********************************
+Bootstrap classes
+/********************************
+
+.btn-lg {
+	font-size: 0.938em;
 }
 
 

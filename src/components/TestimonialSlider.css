@@ -1,9 +1,20 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
+.slick-prev:before, .slick-next:before {
+	color: #161616;
+}
 
+.testimonial-text {
+	width: 500px;
+}
 .testimonial-photo {
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+}
+
+.testimonial-name-date {
+	color: #613476;
+	font-size: 18px;
 }

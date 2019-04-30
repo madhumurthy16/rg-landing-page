@@ -1,7 +1,9 @@
-.hero-img {
-	width: 100%;
-	height: 100vh;
-}
+/*.hero-img {
+	background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}*/
 
 .card-title {
 	text-transform: uppercase;
@@ -10,4 +12,33 @@
 .btn-learn-more {
 	background-color: #AC5FD0;
 }
+
+.hero-image {
+  background-image: url(/assets/images/hero.jpg);
+  height: 100vh;
+  color: white;
+  background-image: url(/assets/images/hero.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding-top: 10.8125rem;
+}
+
+@media (min-width: 768px) { 
+	.hero-image {
+  		padding-top: 13.3125rem;
+	}
+}
+
+/*.jumbotron {
+  color: white;
+  background-image: url(/assets/images/hero.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}*/
 

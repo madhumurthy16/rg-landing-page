@@ -29,6 +29,7 @@ class App extends Component {
       <div className="App">
         <header>  
             <nav className="navbar navbar-expand-md navbar-light fixed-top" style={navBgColor}>
+            <div className="container-fluid">
               <Link className="navbar-brand" to='/' onClick={(e) => this.handleNavClick(e)}><img src='/assets/images/logo-color.svg' className="logo" alt="logo" /><span className="sr-only">(current)</span></Link>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -39,7 +40,7 @@ class App extends Component {
                     <Link className="nav-item nav-link" to='/our-services' onClick={(e) => this.handleNavClick(e)}>Our Services</Link>
                     <Link className="nav-item nav-link" to='/contact' onClick={(e) => this.handleNavClick(e)}>Contact</Link>
                 </div>
-              </div>
+              </div></div>
             </nav>
         </header>
         <main>
@@ -48,12 +49,14 @@ class App extends Component {
             <Route path="/our-services" component={OurServices} />
             <Route path="/contact" component={Contact} />
         </main>
-        <footer id="footer">
-            <div className="container d-flex align-items-center justify-content-center">
+        <footer id="footer mt-5">
+            <div className="container d-flex flex-column align-items-center justify-content-center py-3">
+                <p>Follow Us</p>
+              <div class="d-flex mb-3">
+                <img className="social-icon mr-2" src='/assets/images/instagram.svg' alt="icon indicating instagram logo"/>
+                <img className="social-icon" src='/assets/images/facebook.svg' alt="icon indicating facebook logo"/>
+              </div>
               <small>©2019 Rooster Grin Media</small>
-              <p>Follow Us</p>
-              <img className="social-icon" src='/assets/images/instagram.svg' alt="icon indicating instagram logo"/>
-              <img className="social-icon" src='/assets/images/facebook.svg' alt="icon indicating facebook logo"/>
             </div>
         </footer>
       </div>
