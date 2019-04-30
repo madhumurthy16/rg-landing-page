@@ -1,12 +1,14 @@
-/*.hero-img {
-	background-size: cover;
-    overflow: hidden;
-    width: 100%;
-    height: 100vh;
-}*/
-
-.card-title {
+.hero-title {
 	text-transform: uppercase;
+  animation-name: slidein;
+  animation-delay: 0.2s;
+  animation-duration: 1.8s;
+}
+
+.hero-title-sub {
+  animation-name: fadeInOut;
+  animation-delay: 1.9s;
+  animation-duration: 2s;
 }
 
 .btn-learn-more {
@@ -23,22 +25,40 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
-  padding-top: 10.8125rem;
+  padding-top: 13.3125rem;
+
 }
 
-@media (min-width: 768px) { 
-	.hero-image {
-  		padding-top: 13.3125rem;
-	}
+/* Hero title animation */
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
-/*.jumbotron {
-  color: white;
-  background-image: url(/assets/images/hero.jpg);
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-}*/
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+
+
+
+
 

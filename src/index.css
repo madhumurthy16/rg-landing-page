@@ -8,27 +8,40 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Heading */
+
 h1 {
-	font-size: 4.5em;
+	font-size: 4.0em;
 }
 
 h2 {
-	font-size: 4em;
+	font-size: 3.5em;
 	text-transform: uppercase;
 }
 
 h3 {
-	font-size: 2.5em;
+	font-size: 2.3em;
 	text-transform: uppercase;
 }
 
-a {
-	color: #613476;
+/* Responsive Heading */
+
+@media (min-width: 768px) {
+  h3 {
+  	font-size: 2.5em;
+  }
 }
 
-a:hover {
-	text-decoration: none;
+@media (min-width: 992px) {
+  h1 {
+  	font-size: 4.5rem;
+  }
+  h2 {
+  	font-size: 4em;
+  }
 }
+
+/* Heading Colors */
 
 .heading-purple {
 	color: #613476;
@@ -36,6 +49,16 @@ a:hover {
 
 .heading-black {
 	color: #3E3E3E;
+}
+
+/* Links */
+
+a {
+	color: #613476;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 /* Buttons */
@@ -47,6 +70,11 @@ a:hover {
 
 .btn-contact-us {
 	background-color: #FF7218;
+}
+
+.btn-learn-more:hover, .btn-contact-us a:hover, .btn-contact-us:hover {
+	border-radius: 5px !important;
+	color: #ffffff;
 }
 
 /* Columns */
@@ -62,7 +90,7 @@ a:hover {
 
 /********************************
 Bootstrap classes
-/********************************
+/********************************/
 
 .btn-lg {
 	font-size: 0.938em;
@@ -71,23 +99,10 @@ Bootstrap classes
 
 
 
-/* Breakpoints
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-  
 
 
 
