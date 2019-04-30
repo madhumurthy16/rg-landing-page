@@ -49,6 +49,10 @@ a:hover {
 	font-size: 0.938em;
 }
 
+.btn-contact-us {
+	background-color: #FF7218;
+}
+
 /* Columns */
 
 .col-left {

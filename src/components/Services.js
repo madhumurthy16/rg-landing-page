@@ -12,30 +12,30 @@ const Services = () => (
 			</div>
 			<div className="services-col col-md-6 py-5 pl-5 d-flex justify-content-center">
 				<div className="row my-5 align-self-center">
-					<div className="col">
+					<div className="col-md">
 						<div className="services-icon-wrapper">
 							<img className="services-icon" src='/assets/images/home-expertise.svg' alt="icon indicating expertise"/>
 						</div>
-						<p>Lorem</p>
+						<p className="services-icon-text heading-black mt-2">Lorem</p>
 					</div>
-					<div className="col">
+					<div className="col-md">
 						<div className="services-icon-wrapper">
 							<img className="services-icon" src='/assets/images/home-hygiene.svg' alt="icon indicating lab"/>
 						</div>
-						<p>Lorem Ipsum</p>
+						<p className="services-icon-text heading-black mt-2">Lorem Ipsum</p>
 					</div>
 					<div class="w-100"></div>
-					<div className="col">
+					<div className="col-md mt-5">
 						<div className="services-icon-wrapper">
 							<img className="services-icon" src='/assets/images/home-lab.svg' alt="icon indicating hygiene"/>
 						</div>
-						<p>Lorem Ipsum</p>
+						<p className="services-icon-text heading-black mt-2">Lorem Ipsum</p>
 					</div>
-					<div className="col">
+					<div className="col-md mt-5">
 						<div className="services-icon-wrapper">
 							<img className="services-icon" src='/assets/images/home-retention.svg' alt="icon indicating retention"/>
 						</div>
-						<p>Lorem</p>
+						<p className="services-icon-text heading-black mt-2">Lorem</p>
 					</div>
 				</div>
 			</div>

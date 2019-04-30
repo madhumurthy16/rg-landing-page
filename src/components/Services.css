@@ -1,7 +1,12 @@
+.services-col {
+	background-color: #fafafa;
+	border-left: 1px solid #979797;
+}
+
 .services-icon-wrapper {
 	width: 100px;
 	height: 100px;
-	line-height: 90px;
+	line-height: 100px;
 	border: 1px solid #AC5FD0;
   	border-radius: 50%;
   	vertical-align: middle;
@@ -9,13 +14,12 @@
 }
 
 img.services-icon {
-  height: 15vmin;
-  padding: 0px;
+  height: 8vmin;
   pointer-events: none;
-  
 }
 
-.services-col {
-	background-color: #fafafa;
-	border-left: 1px solid #979797;
+.services-icon-text {
+	font-size: 1.375em;
 }
+
+
