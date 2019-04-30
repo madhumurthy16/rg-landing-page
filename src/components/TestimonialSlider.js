@@ -20,18 +20,21 @@ class TestimonialSlider extends Component {
       };
 
     return (
-      <section className="testimonial my-5">
-        <div class="container">
+      <section className="testimonial my-5 py-2">
+        <div class="container my-5">
           <div className="row align-items-center justify-content-center">
-          <div className="col-md-12 text-center">
+          <div className="col-md-8 text-center">
               <Slider {...settings}>
                 {
                 	this.state.testimonials.map( (testimonial, index) => 
                 		<div key={index} >
-                			<h3>{testimonial.title}</h3>
-                			<p className="testimonial-text">{testimonial.text}</p>
-                			<img className="testimonial-photo d-inline-block" src={testimonial.photo} alt={testimonial.name} />
-                			<p className="testimonial-name-date mt-2">{testimonial.name} {testimonial.date}</p>
+                			<h3 className="mb-5">{testimonial.title}</h3>
+                			<p className="testimonial-text mb-5">{testimonial.text}</p>
+                      <div className="d-inline-block">
+                			   <img className="img-fluid rounded-circle" src={testimonial.photo} alt={testimonial.name} />
+                			</div>
+                      <p className="testimonial-name mb-0">{testimonial.name}</p>
+                      <p className="testimonial-date">{testimonial.date}</p>
                 		</div>
                 	)
                 }

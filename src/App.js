@@ -53,10 +53,10 @@ class App extends Component {
             <div className="container d-flex flex-column align-items-center justify-content-center py-3">
                 <p>Follow Us</p>
               <div class="d-flex mb-3">
-                <img className="social-icon mr-2" src='/assets/images/instagram.svg' alt="icon indicating instagram logo"/>
-                <img className="social-icon" src='/assets/images/facebook.svg' alt="icon indicating facebook logo"/>
+                <a href="https://www.roostergrin.com/" target="_blank" rel="noopener noreferrer"><img className="social-icon mr-2" src='/assets/images/instagram.svg' alt="icon indicating instagram logo"/></a>
+                <a href="https://www.facebook.com/RoosterGrin/" target="_blank" rel="noopener noreferrer"><img className="social-icon" src='/assets/images/facebook.svg' alt="icon indicating facebook logo"/></a>
               </div>
-              <small>©2019 Rooster Grin Media</small>
+              <small className="heading-purple">©2019 Rooster Grin Media</small>
             </div>
         </footer>
       </div>

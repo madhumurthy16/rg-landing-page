@@ -1,3 +1,9 @@
-.banner-right-cta .card-img-overlay {
-	width: 500px !important;
+.banner-right-cta .banner-right-row {
+	background-image: url(/assets/images/banner-2.jpg);
+  	min-height: 30em;
+  	background-size: cover;
+}
+
+.banner-right-text {
+	padding: 7em;
 }

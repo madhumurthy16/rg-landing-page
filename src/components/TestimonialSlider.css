@@ -5,16 +5,28 @@
 	color: #161616;
 }
 
-.testimonial-text {
-	width: 500px;
-}
-.testimonial-photo {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-}
-
-.testimonial-name-date {
+.testimonial-name, .testimonial-date {
 	color: #613476;
 	font-size: 18px;
+}
+
+.testimonial-date {
+	font-size: 14px;
+}
+
+.slick-dots li button:before {
+	color: #FFC718;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #FFC718;
+}
+
+.slick-prev, .slick-next {
+	top: 35%;
+	right: -55px;
+}
+
+.slick-prev {
+	left: -55px;
 }

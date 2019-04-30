@@ -1,0 +1,9 @@
+.blurb-image {
+  background-image: url(/assets/images/img-1.jpg);
+  min-height: 30em;
+  background-size: cover;
+}
+
+.blurb-text {
+	padding: 7em;
+}

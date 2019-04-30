@@ -1,0 +1,11 @@
+.banner-left-cta .banner-left-row {
+	background-image: url(/assets/images/banner-1.jpg);
+  	min-height: 30em;
+  	background-size: cover;
+}
+
+.banner-left-text {
+	padding: 7em;
+}
+
+

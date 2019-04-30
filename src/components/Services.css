@@ -1,6 +1,11 @@
+.services-text {
+	padding: 7em;
+}
+
 .services-col {
 	background-color: #fafafa;
 	border-left: 1px solid #979797;
+	padding-left: 7em;
 }
 
 .services-icon-wrapper {
