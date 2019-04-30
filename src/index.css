@@ -3,7 +3,7 @@
   color: #161616;
   font-size: 16px;
   line-height: 1.5;
-
+  padding-top: 56px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,6 +14,7 @@ h1 {
 
 h2 {
 	font-size: 4em;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -28,9 +29,57 @@ a:hover {
 	text-decoration: none;
 }
 
+.heading-purple {
+	color: #613476;
+}
+
+.heading-black {
+	color: #3E3E3E;
+}
+
+
 /* Buttons */
 
-.btn-submit {
-
+.btn-learn-more, .btn-contact-us {
+	color: #ffffff;
+	text-transform: uppercase;
 }
+
+.btn-lg {
+	font-size: 0.938em;
+}
+
+/* Columns */
+
+.col-left {
+	padding-left: 4rem !important;
+	padding-right: 4rem !important;
+}
+
+.col-right {
+	padding-right: 4rem;
+}
+
+
+
+
+/* Breakpoints
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+  
+
+
 

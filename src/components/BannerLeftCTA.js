@@ -1,12 +1,15 @@
 import React from 'react';
+import './BannerLeftCTA.css';
 
 const BannerLeftCTA = () => (
-	<section className="hero">
-		<div className="hero card bg-dark text-white mb-5 border-0 rounded-0">
+	<section>
+		<div className="card text-white border-0 rounded-0">
 			<img className="card-img rounded-0 img-fluid" src='/assets/images/banner-1.jpg' alt="Mother and Child using a computer"/>
-			<div className="card-img-overlay m-5 d-flex align-items-center justify-content-center">
-				<h2 className="hero-title card-title font-weight-bold">Lorem Ipsum</h2>
-				<button type="submit" className="btn-submit" id="btn-learn-more">Learn More</button>
+			<div className="card-img-overlay col-left d-flex">
+				<div className="my-auto">
+					<h2 className="card-title heading-purple">Lorem Ipsum</h2>
+					<button type="button" className="btn btn-lg rounded-0 btn-contact-us">Contact Us</button>
+				</div>
 			</div>
 		</div>
 	</section>
