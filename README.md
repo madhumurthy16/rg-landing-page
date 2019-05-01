@@ -10,12 +10,12 @@ I enjoyed building the app with React. Eversince I learned React I wanted to bui
 
 # Getting Started
 
-Clone the repository to your local machine.
+Clone the repository to your local machine
 
 Navigate into your App directory on your machine using the command: **cd my-app**
 
-Install dependencies by using the **npm install** command in the terminal.
+Install dependencies by using the **npm install** command in the terminal
 
-Run the command **npm start**. Runs the app in development mode.
+Run the command **npm start**. Runs the app in development mode
 
-Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000 to view it in the browser
