@@ -1,16 +1,6 @@
 .hero-title {
 	text-transform: uppercase;
-  animation-name: slidein;
-  animation-delay: 0.2s;
-  animation-duration: 1.8s;
 }
-
-.hero-title-sub {
-  animation-name: fadeInOut;
-  animation-delay: 1.9s;
-  animation-duration: 2s;
-}
-
 .btn-learn-more {
 	background-color: #AC5FD0;
 }
@@ -29,33 +19,6 @@
 
 }
 
-/* Hero title animation */
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
-  }
-
-  45% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0%;
-  }
-}
 
 
 

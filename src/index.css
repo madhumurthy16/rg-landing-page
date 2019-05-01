@@ -77,6 +77,10 @@ a:hover {
 	color: #ffffff;
 }
 
+.link-learn-more:hover {
+	color: #55635a;
+}
+
 /* Columns */
 
 .col-left {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import testimonialsData from './../data/testimonials';
 import './TestimonialSlider.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class TestimonialSlider extends Component {
 	constructor(props) {
@@ -28,7 +29,9 @@ class TestimonialSlider extends Component {
                 {
                 	this.state.testimonials.map( (testimonial, index) => 
                 		<div key={index} >
-                			<h3 className="mb-5">{testimonial.title}</h3>
+                      <ScrollAnimation animateIn="fadeInDown">
+                			   <h3 className="mb-5">{testimonial.title}</h3>
+                      </ScrollAnimation>
                 			<p className="testimonial-text mb-5">{testimonial.text}</p>
                       <div className="d-inline-block">
                 			   <img className="img-fluid rounded-circle" src={testimonial.photo} alt={testimonial.name} />
