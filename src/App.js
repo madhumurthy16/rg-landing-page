@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import Landing from './components/Landing';
 import About from './components/About';
 import OurServices from './components/OurServices';
@@ -27,6 +27,7 @@ class App extends Component {
   
   render() {
     return (
+      <HashRouter basename='/'>
       <div className="App">
         <header>  
             <nav className="navbar navbar-expand-md navbar-light fixed-top" style={navBgColor}>
@@ -61,6 +62,7 @@ class App extends Component {
             </div>
         </footer>
       </div>
+      </HashRouter>
     );
   }
 }
