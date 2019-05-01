@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Hero.css';
 import {Animated} from "react-animated-css";
 
+/* Hero section */
+
 class Hero extends Component {
 	constructor(props) {
 		super(props);
@@ -11,7 +13,7 @@ class Hero extends Component {
 	render() {
 		return (
 			<section className="hero-image">
-				<div class="hero-content">
+				<div class>
 		  			<div class="container">
 		  				<div class="row align-items-center justify-content-center d-flex">
 			  				<div class="col-md-8 col-lg-7">
@@ -19,7 +21,7 @@ class Hero extends Component {
 									<h1 className="hero-title text-center mb-2">Welcome To</h1>
 								</Animated>
 			  					<Animated animationIn="fadeInUp" animationOut="fadeOut" animationInDelay="60" animationInDuration="2000" animationOutDuration="3000" isVisible={true}>
-									<h2 className="hero-title-sub text-center mb-4">Rooster Grin</h2>
+									<h2 className="text-center mb-4">Rooster Grin</h2>
 								</Animated>
 								<p className="text-center">
 									<button type="button" className="btn btn-lg rounded-0 btn-learn-more text-center"><a href="https://www.roostergrin.com/" target="_blank" rel="noopener noreferrer">Learn More</a></button>

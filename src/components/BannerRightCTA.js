@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './BannerRightCTA.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+/* Banner section with CTA on the Right */
+
 const BannerRightCTA = () => (
 	<section className="banner-right-cta">
 		<div className="container-fluid p-0">

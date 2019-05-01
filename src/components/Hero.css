@@ -15,8 +15,14 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
-  padding-top: 13.3125rem;
+  padding-top: 16rem;
 
+}
+
+@media screen and (min-width: 576px) {
+  .hero-image {
+    padding-top: 13.3125rem;
+  }
 }
 
 

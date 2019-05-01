@@ -6,6 +6,7 @@ import OurServices from './components/OurServices';
 import Contact from './components/Contact';
 import './App.css';
 
+/* inline style */
 let navBgColor = {
     backgroundColor: '#fafafa',
   };
@@ -49,7 +50,7 @@ class App extends Component {
             <Route path="/our-services" component={OurServices} />
             <Route path="/contact" component={Contact} />
         </main>
-        <footer id="footer mt-5">
+        <footer className="footer mt-5">
             <div className="container d-flex flex-column align-items-center justify-content-center py-3">
                 <p>Follow Us</p>
               <div class="d-flex mb-3">

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Blurb.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
+/* Section with a small blurb on the left and image on the right */
+
 const Blurb = () => (
 	<section className="blurb">
 		<div className="container-fluid p-0">
